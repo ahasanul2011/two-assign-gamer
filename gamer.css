@@ -11,15 +11,15 @@ font-family: 'Work Sans', sans-serif;
     display: flex;
     margin: 30px 80px;
     justify-content: space-between;
-    /* text-align: center; */
-    border: 1px solid red;
+    text-align: center;
+    /* border: 1px solid red; */
     width: 80%;
     padding: 10px;
     }
 
 .brand{
     display: flex;
-    border: 6px solid pink;
+    /* border: 6px solid pink; */
     width: 40%;
 }
 
@@ -29,25 +29,53 @@ font-family: 'Work Sans', sans-serif;
     height: 30px;
     width: 60px;
 }
+
+.brand-color{
+    COLOR : pink;
+    liner-gr
+
+}
+
 .nav-items{
-    
+        
     width: 60%;
-    border: 5px solid green;
+    margin-top: 18px;
+    margin-left: 130px;
+    /* border: 5px solid green; */
     
+}
+
+.nav-items ul {
+    display: flex;
+    color: #100c1d;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 
 .nav-items> ul> li a{
     text-decoration: none;
-    display: flex;
+    margin-right: 20px;
+    
 }
 
 .nav-items> ul> li{
     list-style: none;
     display: flex;
+    justify-content: end;
 }
 
+.youtube{
+    margin-right: 2px;
+    margin-left: 2px;
+    
+}
 
+.button-decoration{
+    border-radius: 05px;
+    padding: 3px;
+    border: white;
+   }
 
 
 
