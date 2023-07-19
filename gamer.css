@@ -1,7 +1,75 @@
 *{
-border: 0;
-margin: 0;
+box-sizing: border-box;
+font-family: font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
+
+
+/* header styles */
+
+.nav-container{
+    display: flex;
+    margin: 30px 80px;
+    justify-content: space-between;
+    /* text-align: center; */
+    border: 1px solid red;
+    width: 80%;
+    padding: 10px;
+    }
+
+.brand{
+    display: flex;
+    border: 6px solid pink;
+    width: 40%;
+}
+
+.brand img{
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 30px;
+    width: 60px;
+}
+.nav-items{
+    
+    width: 60%;
+    border: 5px solid green;
+    
+}
+
+
+.nav-items> ul> li a{
+    text-decoration: none;
+    display: flex;
+}
+
+.nav-items> ul> li{
+    list-style: none;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* to creat main  */
+
+
+.main{
+
+    /* height: 1000px; */
+}
+
 
 
 
@@ -9,19 +77,19 @@ margin: 0;
 /* To creat footer container */
 
 .footer-container{
-    background-color: rgb(1, 1, 22);
-    color: white;
-    padding :  30px;
+    /* background-color: rgb(1, 1, 22); */
+    /* color: white; */
+    /* padding :  30px; */
 }
 
-.logo-brand, .footer-items, .social-media-logo, .policy-container, .rights{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
+/* .logo-brand, .footer-items, .social-media-logo, .policy-container, .rights{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin: 15px; */
 }
 
-.logo-brand{
+/* .logo-brand{
 margin: 30px;
 
 }
@@ -41,4 +109,4 @@ margin: 30px;
 
 .policy-container,   .rights{
     font-size: 10px;
-}
+} */
