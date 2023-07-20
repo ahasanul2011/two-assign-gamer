@@ -136,7 +136,7 @@ background-clip: text;
 }
  
 .instant, .download,.support {
-    font-size: 12px;
+    font-size: 8px;
     margin-bottom: 4PX;
 }
 
@@ -176,7 +176,105 @@ margin-right: 110px;
 
 
 
+/* online video section  */
 
+.game-funny{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.online-video-container{
+    margin-left: 82PX;
+    margin-right: 110px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.funy-game{
+   
+}
+.fond-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.hilarious{
+    font-size: 12px;
+    color: #534C64;
+}
+
+.image-description-01 {
+    /* border: 1px solid red; */
+    border-width: 24%;
+    padding: 14px;
+}
+
+
+.image-description-02{
+    /* border: 1px solid green; */
+    border-width: 24%;
+    padding: 14px;
+} 
+.image-description-03 {
+    /* border: 1px solid blue; */
+    border-width: 24%;
+    padding: 14px;
+}
+.image-description-04{
+    /* border: 1px solid pink; */
+    border-width: 24%;
+    padding: 14px;
+}
+
+
+   
+.video-1, .video-2, .video-3, .video-4{
+    font-size: 12px;
+    color: #534C64;
+}
+
+
+
+/* instantly no download */
+
+.no-dowload-conatainer{
+    margin-left: 90PX;
+    margin-right: 135px;
+    border: 1px solid red; 
+    display: flex;
+}
+
+.details-on-download{
+ 
+  border: 1px solid green;
+  text-align: right;
+}
+
+
+.color-fond{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.no-dowload-description{
+    font-size: 12px;
+    color: #534C64;
+   
+    width: 50%;
+}
+
+.pics-details{
+   
+    
+    border: 1px solid blue;
+}
 
 
 
